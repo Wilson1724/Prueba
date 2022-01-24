@@ -8,8 +8,8 @@ namespace ModeloPrueba.Entidades
 {
     public class store
     {
-        public int store_id { get; set; }
-        public string manager_staff_id { get; set; }
+        public int storeId { get; set; }
+        public int manager_staff_id { get; set; }
         public staff staffstore { get; set; }
         public string address_id { get; set; }
         public string last_update { get; set; }
